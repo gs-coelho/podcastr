@@ -74,7 +74,6 @@ export function PlayerContextProvider({
   }
 
   function toggleShuffle() {
-    console.log(regularEpisodeList);
     if (isShuffling) {
       const oldIndex = regularEpisodeList.findIndex(
         (episode) => episode.id === episodeList[currentEpisodeIndex].id
